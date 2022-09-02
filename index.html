@@ -5,60 +5,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Netflix</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/3872a6d0e5.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
+
   <header>
-    <div class="container">
-      <div>
-        <a href="#">
-          <img class="logo" src="imagens/logo-netflix.png" alt="Logotipo Netflix" width="130px" /></a>
-        <span class="responsive-mobile">Navegar
-          <i class="fa-solid fa-sort-down"></i>
-        </span>
-        <nav class="navbar">
-          <a href="#">Inicio</a>
-          <a href="#">Serie</a>
-          <a href="#">Filme</a>
-          <a href="#">Bombando</a>
-          <a href="#">Minha lista</a>
-          <a href="#">Navege por Idioma</a>
 
-        </nav>
-      </div>
+    <div class="conteiner">
+      <div class="header-left">
+        <a href=""><img src="imagens/logo-netflix.png" alt="logo"/></a>
+        <div class="menu-header">
+          <ul>
+            <li><a href="#"> Inicio </a></li>
+            <li><a href="#"> Serie </a></li>
+            <li><a href="#"> Filme </a></li>
+            <li><a href="#"> Bombando </a></li>
+            <li><a href="#"> Minha lista </a></li>
+          </ul>
+        </div>
+        <div class="header-right">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bell"></i>
+          </div>
 
-      <div>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-bell"></i>
-        
-        <div class="icone-down">
-          <div class="icone"></div>
-          <i class="fa-solid fa-sort-down"></i>
+          <div class="clear"></div>
         </div>
       </div>
     </div>
   </header>
 
+
+  
   <main>
+
     <div class="filme-principal">
+
       <video style="object-fit: cover; width: 100%; height: 100%;" controls autoplay>
         <source src="video/video.mp4" type="video/mp4">
       </video>
+
       <div class="filme-principal-infor">
 
+        <h1 class="animate__animated animate__pulse">Matrix Resurrections</h1>
 
-
-        <h3 class="titulo">Matrix Resurrections</h3>
-        <p class="descricao"> Bem-vindo à matriz, é ilusão ou é realidade? Descubra neste novo e poderoso documentário
+        <p class="descricao"> Bem-vindo à matriz, é ilusão ou é realidade? Descubra neste novo e poderoso
           que explora as questões fundamentais da vida: de onde viemos e qual é a natureza da própria realidade.
           Conecte-se à Matrix: Estamos Vivendo Em Uma Simulação.</p>
-        <button role="button"> <i class="fa-solid fa-play"></i> Assistir </button>
-        <button role="button"> <i class="fa-solid fa-circle-info"></i> Mais informações </button>
+
+        <button> <i class="fa-solid fa-play"></i> Assistir </button>
+
+        <button> <i class="fa-solid fa-circle-info"></i> Mais informações </button>
+
       </div>
     </div>
   </main>
@@ -66,20 +70,25 @@
     <h2> Lancamentos </h2>
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img class="img-slide" src="imagens/img1.jpg"></div>
-        <div class="swiper-slide"><img class="img-slide" src="imagens/img2.jpg"></div>
-        <div class="swiper-slide"><img class="img-slide" src="imagens/img3.jpg"></div>
-        <div class="swiper-slide"><img class="img-slide" src="imagens/img4.jpg"></div>
-        <div class="swiper-slide"><img class="img-slide" src="imagens/img5.jpg"></div>
-        <div class="swiper-slide"><img class="img-slide" src="imagens/img6.jpg"></div>
-        <div class="swiper-slide"><img class="img-slide" src="imagens/img7.jpg"></div>
-        <div class="swiper-slide"><img class="img-slide" src="imagens/img8.jpg"></div>
-        <div class="swiper-slide"><img class="img-slide" src="imagens/img9.jpg"></div>
-        <div class="swiper-slide"><img class="img-slide" src="imagens/img10.jpg"></div>
+
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img1.jpg">
+
+
+        </div>
+
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img2.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img3.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img4.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img5.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img6.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img7.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img8.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img9.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img10.jpg"></div>
       </div>
 
 
-      <div class="swiper-pagination"></div>
+
     </div>
 
     <!-- Swiper JS -->
@@ -112,74 +121,80 @@
 
           },
           1700: {
-              slidesPerView: 5,
-              spaceBetween: 50,
+            slidesPerView: 5,
+            spaceBetween: 50,
 
-            },
+          },
         }
       });
     </script>
+  </section>
 
-    <section>
-      <h2> Populares na netflix </h2>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img class="img-slide" src="imagens/img11.jpg"></div>
-          <div class="swiper-slide"><img src="imagens/img12.jpg"></div>
-          <div class="swiper-slide"><img src="imagens/img13.jpg"></div>
-          <div class="swiper-slide"><img src="imagens/img14.jpg"></div>
-          <div class="swiper-slide"><img src="imagens/img15.jpg"></div>
-          <div class="swiper-slide"><img src="imagens/img16.jpg"></div>
-          <div class="swiper-slide"><img src="imagens/img17.jpg"></div>
-          <div class="swiper-slide"><img src="imagens/img18.jpg"></div>
-          <div class="swiper-slide"><img src="imagens/img19.jpg"></div>
-          <div class="swiper-slide"><img src="imagens/img20.jpg"></div>
-        </div>
-
-
-        <div class="swiper-pagination"></div>
+  <section>
+    <h2> Populares na netflix </h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img11.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img12.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img13.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img14.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img15.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img16.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img17.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img18.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img19.jpg"></div>
+        <div class="swiper-slide"><img class="img-slide" alt="SlideImagem" src="imagens/img20.jpg"></div>
       </div>
 
-      <!-- Swiper JS -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-      <!-- Initialize Swiper -->
-      <script>
-        var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 1,
-          spaceBetween: 10,
-          freeMode: true,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
+
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          690: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+
           },
-          breakpoints: {
-            690: {
-              slidesPerView: 2,
-              spaceBetween: 20,
+          1025: {
+            slidesPerView: 3,
+            spaceBetween: 30,
 
-            },
-            1025: {
-              slidesPerView: 3,
-              spaceBetween: 30,
+          },
+          1390: {
+            slidesPerView: 4,
+            spaceBetween: 40,
 
-            },
-            1390: {
-              slidesPerView: 4,
-              spaceBetween: 40,
+          },
+          1700: {
+            slidesPerView: 5,
+            spaceBetween: 50,
 
-            },
-            1700: {
-              slidesPerView: 5,
-              spaceBetween: 50,
+          },
+        }
+      });
+    </script>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
 
-            },
-          }
-        });
-      </script>
-    </section>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 </body>
 
 
